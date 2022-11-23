@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /* 1rem = 10 px */
+    font-size: 66.5%; /* 1rem = 10 px */
     margin: 0;
     
   }
@@ -11,12 +11,14 @@ html {
   }
 
   h3, p, .radio_btn_detalle, #castracion-btn {
-    margin-left: 4rem;
+    margin-left: 5rem;
 
   }
 
   h1{
     text-align: center;
+    background-color: rgb(93, 53, 178 );
+    color: #fafafa;
   }
 
 .form_btn {
@@ -27,5 +29,19 @@ html {
 }
 
 hr{
-  color: #c4c4c4;
+  color: #ffffff;
+}
+
+.pelaje_cb{
+  background-color: red;
+
+}
+
+.detalle_combo{
+  display: flex;
+}
+
+.vacunas_combo{
+  display: flex;
+  gap: 14px;
 }

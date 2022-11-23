@@ -24,9 +24,10 @@ export default function FormZoo() {
       <Box
         component="form"
         sx={{
-          '& .MuiTextField-root': { m: 1, width: '50ch', marginLeft: '4rem' },
+          '& .MuiTextField-root': { m: 1, width: '50ch', marginLeft: '5rem' },
           bgcolor: '#fafafa',
-          marginLeft: "13rem",
+          marginLeft: "8rem",
+          
 
         }}
         noValidate
@@ -133,7 +134,7 @@ export default function FormZoo() {
 
           {/* DETALLES SANITARIOS */}
           <h3>DETALLES SANITARIOS</h3>
-          <div className=''>
+          <div className='vacunas_combo'>
             <FormControl id="castracion-btn">
               <FormLabel >Castración</FormLabel>
               <RadioGroup

@@ -5,39 +5,40 @@ import Autocomplete from '@mui/material/Autocomplete';
 export default function DetalleAnimal() {
   return (
     <div>
-      <div>
+      <div className='detalle_combo'>
       <Autocomplete
           disablePortal
           id="combo_razas_registradas"
           options={listaPerros}
-          sx={{ width: 300 }}
+  
           renderInput={(params) => <TextField {...params} label="Razas registradas" />}
           />    
-      </div>
-      <div>
+  
         <Autocomplete
           disablePortal
           id="combo-box-demo"
           options={det_tamaño}
           renderInput={(params) => <TextField {...params} label="Tamaño" />}
           />
+
       </div>
-      <div>
+      <div className='detalle_combo'>
         <Autocomplete
           disablePortal
           id="combo-box-demo"
           options={det_pelaje}
+         
           renderInput={(params) => <TextField {...params} label="Pelaje" />}
           />
-      </div>
-      <div>
+ 
         <Autocomplete
           disablePortal
           id="combo-box-demo"
           options={det_color}
           renderInput={(params) => <TextField {...params} label="Color" />}
           />
-        </div>
+
+      </div>
     </div>
   );
 }
