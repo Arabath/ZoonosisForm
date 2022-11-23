@@ -27,7 +27,7 @@ export default function FormZoo() {
         '& .MuiTextField-root': { m: 1, width: '50ch', marginLeft: '4rem' },
         bgcolor: '#fafafa',
         marginLeft: "13rem",
-        '& .MuiInputLabel-root': { marginLeft: '4rem'}  
+        
       }}
       noValidate
       autoComplete="off"
@@ -38,7 +38,7 @@ export default function FormZoo() {
             <div id="datos_propietario">
                 {/* DATOS PROPIETARIO */}
                 <h3>DATOS PROPIETARIO</h3>
-                <InputLabel>Nombre y Apellido</InputLabel>
+                <p>Nombre y Apellido</p>
                 <TextField  required
                             id="filled-required"
                             defaultValue="Nombre"
@@ -49,8 +49,8 @@ export default function FormZoo() {
                             id="filled-required"
                             defaultValue="Apellido"
                             variant="filled"/>
-
-                <InputLabel>Fecha Nacimiento</InputLabel>
+                
+                <p>Datos Generales</p>
                 <TextField  required
                             id="filled-required"
                             defaultValue="Fecha Nacimiento"
@@ -58,7 +58,6 @@ export default function FormZoo() {
                             type="date"
                 />
 
-                <InputLabel>Datos Contacto</InputLabel>
                 <TextField  
                             id="filled-required"
                             defaultValue="Telefono"
@@ -81,7 +80,7 @@ export default function FormZoo() {
             {/* DATOS CRIADORES */}
             <div id="datos_criadores">
                 <h3>CRIADORES (Completar en el caso que corresponda)</h3>
-                <InputLabel>Nombre del criadero</InputLabel>
+                <p>Nombre del criadero</p>
                 <TextField 
                             id="filled-required"
                             defaultValue="Criadero"
@@ -92,7 +91,7 @@ export default function FormZoo() {
                             defaultValue="Registro FCA/Kennel/etc"
                             variant="filled"
                             />
-                <InputLabel>Registro</InputLabel>
+                <p>Registro</p>
                 <TextField 
                             id="filled-required"
                             defaultValue="N° de registro"
@@ -115,7 +114,7 @@ export default function FormZoo() {
                             defaultValue="Edad"
                             />
 
-                <div className='marginLeft'>
+                <div className='radio_btn_detalle'>
                             <GeneroBtn />
                 </div>
                             <DetalleRadio />
@@ -181,7 +180,7 @@ export default function FormZoo() {
                           />
             </div>
             <br />
-            <InputLabel>Datos Veterinario</InputLabel>
+            <p>Datos Veterinario</p>
                 <TextField  required
                             id="filled-required"
                             defaultValue="Nombre"
@@ -217,7 +216,6 @@ export default function FormZoo() {
             </div>
             <br />
             <div>
-
       </div>
     </Box>
     </Container>
