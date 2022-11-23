@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10 px */
+    margin: 0;
+    
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  h3, .radio_btn_detalle, #castracion-btn {
+    margin-left: 4rem;
+
+  }
+
+  h1{
+    text-align: center;
+  }
+
+.form_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 5px;
+}
+
+hr{
+  color: #c4c4c4;
+}
